@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.six{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    color: red;
+    font-size: 25px;
+    margin: 20px auto;
+}
+
+header{
+    background-color: peru;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+p{
+    background-color: navy;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}
+
+.image{
+   /*  border: 2px solid;*/
+     width: 300px;
+     margin: 20px auto;
+}
+
+.links{
+    text-align: center;
+}
+.links>a{
+    text-decoration: none;
+}
+
+.border{
+    background-color:lightslategray;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #50d527;
+    width: 200px; 
+    padding: 15px;
+  }
+  
+  .footers {
+    display: flex;
+    background-color: #dada11;
+    padding: 10px;
+    gap: 10px;
+  }
+@media screen and (width >=1024px) {
+    .six{
+        padding: 20px;
+    }
+}
+@media screen and (width >=600px) and ( width <=1200px) {
+    header{
+        background-color:lightgreen;
+        color: black;
+    }
+    
+}
+@media screen and (width <=480px) {
+    p{
+        font-size: 16px;
+    }
+}
+@media screen and (width <=600px) {
+    .image>img{
+        width: 100%;
+    }
+}
+@media screen and (width >=700px) and ( width <=1200px) {
+    a{
+        color:blue;
+    }
+    
+}
+@media screen and (width >=500px) and ( width <=800px) {
+    h2{
+       font-size: 24px;
+    }
+    
+}
+@media screen and (width >=1024px)  {
+    .border{
+        border: 2px solid black;
+    }
+    
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .sidebar {
+      width: 250px;
+    }
+  }
+  @media screen and (width >=600px) {
+    .footers{
+      flex-direction: column;
+    }
+}
